@@ -215,12 +215,6 @@
   max-height: 42px;
 }
 
-@media (max-width: 450px) {
-  #phone-link {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) {
   #phone-link {
     display: none;
