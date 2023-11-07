@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer-.css">
@@ -15,16 +17,10 @@
 </head>
 
 <body class="text-center">
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background-color: rgb(181,37,37);height: 70px;">
-        <div class="container">
-            <div id="lowell-ma-nashua-nh-div"><strong id="lowell-ma-nashua-nh" style="font-size: 12px;"><span style="color: rgb(255, 255, 255);">NASHUA NH&nbsp; &nbsp; &nbsp;LOWELL MA</span></strong></div>
-            <div class="ml-auto" id="phone-section"><img id="phone-icon" src="assets/img/phone%20icon.png"><a id="phone-link" class="login" href="#" style="color: rgb(255,255,255);padding-right: 0px;margin-left: 8px;"><strong>774 372 6781</strong></a></div>
-            <div class="collapse navbar-collapse float-none" id="navcol-1">
-                <ul class="navbar-nav text-center mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgb(249,249,249);"><strong><span style="color: rgb(255, 255, 255);">NASHUA NH</span></strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgb(255,255,255);"><strong>LOWELL MA</strong></a></li>
-                </ul><img id="phone-icon-big-screen" src="assets/img/phone%20icon.png" style="margin-right: 11px;"><span class="navbar-text actions"><a class="login" href="#" style="color: rgb(255,255,255);padding-right: 0px;"><br><strong>774 372 6781</strong><br><br></a> </span>
-            </div>
+    <nav class="navbar navbar-light navbar-expand-md text-center d-flex align-items-center" style="background: #b52525;text-align: center;">
+        <div class="container-fluid">
+            <div style="background: #b52525;width: auto;"><strong id="lowell-ma-nashua-nh" style="font-size: 14px;margin-right: 0px;margin-left: 0px;padding-right: 0px;padding-left: 0px;margin-top: 0px;padding-top: 0px;padding-bottom: 0px;margin-bottom: 1px;"><span style="color: rgb(255, 255, 255);">&nbsp; NASHUA NH&nbsp; &nbsp;LOWELL MA</span></strong></div>
+            <div id="phonesection" style="width: 192px;border-color: rgb(181,37,37);background: #b52525;"><strong id="lowell-ma-nashua-nh-1" style="font-size: 15px;"><img id="phone" src="assets/img/phone%20icon.png"><img id="text" src="assets/img/text%20icon4.png"><span style="color: rgb(255, 255, 255);">774 372 6781</span></strong></div>
         </div>
     </nav>
     <nav class="navbar navbar-light navbar-expand-md" style="height: 80px;padding-top: 0px;margin-top: 20px;padding-bottom: 0px;margin-bottom: 15px;">
@@ -130,13 +126,15 @@
                         <div class="col-md-8 col-lg-6 col-xl-5">
                             <div class="card" style="background: rgb(181,37,37);">
                                 <div class="card-body text-center p-sm-5">
-                                    <h2 class="font-weight-bold mb-3"><span style="color: rgb(255, 255, 255);">Contact us</span></h2>
-                                    <form>
-                                        <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Name" required=""></div>
-                                        <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email" placeholder="Email" required=""></div>
-                                        <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="Message" required=""></textarea></div>
-                                        <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
-                                    </form>
+                                    <h2 class="font-weight-bold mb-3"><span style="color: rgb(255, 255, 255);">Contact us</span></h2><form
+  action="https://formspree.io/f/xwkdzavd"
+  method="POST"
+>
+    <div class="mb-3"><input id="name-2" class="form-control" type="text" name="name" placeholder="Name" required /></div>
+    <div class="mb-3"><input id="email-2" class="form-control" type="email" name="email" placeholder="Email" required /></div>
+    <div class="mb-3"><textarea id="message-2" class="form-control" name="message" rows="6" placeholder="Message" required></textarea></div>
+    <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
+</form>
                                 </div>
                             </div>
                         </div>
@@ -145,29 +143,29 @@
             </section>
         </div>
     </section><img src="assets/img/mattys-gutter-logo.png" width="343" height="171" style="padding-top: 0px;padding-bottom: 0px;margin-top: 60px;">
-    <section id="footer">
+    <section id="footer-1">
         <footer style="background: rgb(181,37,37);">
             <div class="row">
                 <div class="col-sm-6 col-md-4 footer-navigation">
-                    <h3><a href="#">Gutter Cleaning&nbsp;<span>Services</span></a></h3>
+                    <h3><a href="#">Gutter Cleaning&nbsp;<span><span style="color: rgb(255, 255, 255);">Services</span></span></a></h3>
                     <p class="links"><a href="#">Home</a><strong> ·</strong><a href="#footer">About</a><strong> · </strong><a href="#work">Work</a><strong> · </strong><a href="#contact">Contact</a></p>
                     <p class="company-name"><span style="color: rgb(255, 255, 255);">Company Name © 2015 </span></p>
                 </div>
-                <div class="col-sm-6 col-md-4 footer-contacts">
-                    <div><span class="fa fa-map-marker footer-contacts-icon" style="background: rgb(83,131,211);"> </span>
+                <div class="col-sm-6 col-md-4 footer-contacts" style="padding-left: 7px;">
+                    <div><i class="typcn typcn-location" style="font-size: 41px;margin-right: 1px;padding-left: 0px;margin-left: -18px;padding-right: 3px;"></i>
                         <p style="font-size: 15px;"><span class="new-line-span" style="font-size: 15px;"><strong>Nashua, New Hampshire</strong></span> Lowell, Massachusetts</p>
                     </div>
-                    <div><i class="fa fa-phone footer-contacts-icon" style="background: rgb(83,131,211);"></i>
+                    <div style="padding-bottom: 0px;"><img id="phone" src="assets/img/phone%20icon.png" style="padding-left: 0px;margin-right: 3px;margin-left: -13px;padding-right: 0px;"><img id="txt-small" src="assets/img/text%20icon4.png" style="margin-right: 0px;margin-left: -8px;">
                         <p class="footer-center-info email text-left">774 372 6781</p>
                     </div>
-                    <div><i class="fa fa-envelope footer-contacts-icon" style="background: rgb(83,131,211);"></i>
-                        <p> <a href="#" target="_blank" style="color: rgb(255,255,255);">kevintheconnect@gmail.com</a></p>
+                    <div style="width: 272px;"><i class="fa fa-envelope footer-contacts-icon" style="background: rgb(181,37,37);font-size: 25px;padding-left: 0px;margin-left: -17px;margin-right: 21px;"></i>
+                        <p> <a href="#" target="_blank" style="color: rgb(255,255,255);font-size: 15px;padding-left: 0px;margin-left: -19px;">Kevintheconnect@gmail.com</a></p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-4 footer-about">
-                    <h4>About the company</h4>
-                    <p><span style="color: rgb(255, 255, 255);">Mattys Gutters, your convenient gutter cleaning solution. Based off Lowell Massachusetts's and Nashua New Hampshire. We do installation repairs, sliders, roofing, shutters and more.</span></p>
+                    <h4 style="margin-left: 6px;">About the company</h4>
+                    <p style="padding-left: 2px;margin-left: 4px;"><span style="color: rgb(255, 255, 255);">Mattys Gutters, your convenient gutter cleaning solution. Based off Lowell Massachusetts's and Nashua New Hampshire. We do installation repairs, sliders, roofing, shutters and more.</span></p>
                     <div class="social-links social-icons"><a href="#" style="background: rgb(83,131,211);"><i class="fa fa-facebook"></i></a><a href="#" style="background: rgb(83,131,211);"><i class="fa fa-twitter"></i></a><a href="#" style="background: rgb(83,131,211);"><i class="fa fa-linkedin"></i></a><a href="#" style="background: rgb(83,131,211);"><i class="fa fa-github"></i></a></div>
                 </div>
             </div>
@@ -175,7 +173,6 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/smart-forms.min.js"></script>
 </body>
 
 </html>

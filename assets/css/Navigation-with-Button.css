@@ -236,3 +236,22 @@
   }
 }
 
+#text-icon {
+  max-height: 62px;
+}
+
+#phone {
+  max-height: 38px;
+}
+
+#text {
+  max-height: 55px;
+}
+
+#txt-small {
+  max-height: 56px;
+}
+
+#txt-small {
+}
+
